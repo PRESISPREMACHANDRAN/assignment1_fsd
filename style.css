@@ -91,9 +91,21 @@ input[type=text]:focus {
 
 #welcome{
   border: 1px solid red;
-  margin-top: 20%;
-  margin-left: 10%;
+  margin-top: 30%;
+  margin-left: 20%;
+  margin-right: 40%;
+  padding-left: 3%;
+ 
+  
 }
 #welcome_button{
-  
+  margin-left: 30%;
+  margin-right: 60%;
+  margin-bottom: 40%;
+  background-color: green;
+}
+#kerala_image{
+  border: 1px solid red;
+  /* height: 10em; */
+
 }
