@@ -72,4 +72,20 @@
   padding-left: 40%;
   
 }
+ /* Give the user a hint that label is clickable */
+ label {
+  cursor: pointer;
+}
+
+input[type=text]:hover {
+  border-color: darkblue;
+  border-width: 2px;
+}
+
+label:focus-within {
+  color:green;
+}  
+input[type=text]:focus {
+  border: 1px solid mediumslateblue;
+} 
 
