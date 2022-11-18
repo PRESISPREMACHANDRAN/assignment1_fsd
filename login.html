@@ -50,12 +50,12 @@
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control border border-primary" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input required type="email" class="form-control border border-primary" id="exampleInputEmail1" aria-describedby="emailHelp" autofocus placeholder="abc@gmail.com">
                             <label for="error" id='error'></label>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control border border-primary" id="exampleInputPassword1">
+                            <input required type="password" class="form-control border border-primary" id="exampleInputPassword1" placeholder="write password" minlength="8" pattern="^\[a-zA-Z0-9]$" title="minimum 8 characters and must include atleast one number,upper case,lower case letters">
                         </div>
                          
                         <p class="small"><a class="text-primary" href="#">Forgot password?</a></p>
@@ -87,6 +87,7 @@
       <p class="copyright">kerala tourism © 2022</p>
   </footer>
 </div>
+<script src="index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 <script src="index.js"></script>

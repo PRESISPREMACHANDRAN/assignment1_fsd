@@ -89,3 +89,11 @@ input[type=text]:focus {
   border: 1px solid mediumslateblue;
 } 
 
+#welcome{
+  border: 1px solid red;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+#welcome_button{
+  
+}
