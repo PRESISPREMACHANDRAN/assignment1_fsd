@@ -55,7 +55,8 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input required type="password" class="form-control border border-primary" id="exampleInputPassword1" placeholder="write password" minlength="8" pattern="^\[a-zA-Z0-9]$" title="minimum 8 characters and must include atleast one number,upper case,lower case letters">
+                            <input required type="password" class="form-control border border-primary" id="exampleInputPassword1" placeholder="write password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).+" title="minimum 8 characters and must include atleast one number,upper case,lower case letters" onkeyup="CheckPasswordStrength(this.value)>
+                            <label for="error" id='error'></label>
                         </div>
                          
                         <p class="small"><a class="text-primary" href="#">Forgot password?</a></p>
